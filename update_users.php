@@ -7,7 +7,7 @@ if (!isset($_SESSION['loggedin'])) {
 
 include "config.php";
 
-// Check if the user ID is provided in the URL - GET Request
+// Check if the user ID is provided in the URL - GET Request(s)
 if (isset($_GET['id'])) {
     $Us_id = $_GET['id'];
 
